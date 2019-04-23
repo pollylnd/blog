@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha&subset=cyrillic');
+
+body {
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+  background: #49d16b;
+  max-height: 150px;
+  align-items: center;
+  border: 8px double #fff;
+}
+
+.header-wrapper h1 {
+  font-family: 'Neucha', cursive;
+  font-size: 75px;
+  color: #fff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.new-task-wrapper {
+  display: flex;
+  justify-content: center;
+  min-height: 100px;
+  align-items: center;
+  background: #efefef;
+}
+
+.new-task-plus button {
+  background: transparent;
+  border: none;
+  color: #49d16b;
+  font-size: 90px;
+  width: 105px;
+}
+
+.new-task-plus button:focus {
+  outline: #49d16b auto 5px;
+}
+
+.new-task-plus button:hover {
+  cursor: pointer;
+}
+
+.list-group {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-group-item {
+  position: relative;
+}
+
+.list-group-item input {
+  height: 100px;
+  width: -webkit-fill-available;
+  border: 2px solid #fff;
+  font-size: 60px;
+  padding-left: 20px;
+  font-family: 'Neucha', cursive;
+  color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  background: #baffcb;
+  outline: none;
+}
+
+.list-group-item-button-check {
+  position: absolute;
+  z-index: 1000;
+  top: 36%;
+  right: 3%;
+  font-size: 30px;
+  color: #058744;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+
+.list-group-item-button-remove {
+  position: absolute;
+  z-index: 1000;
+  top: 36%;
+  right: 3%;
+  font-size: 30px;
+  color: #058744;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.list-group-item-button-edit {
+  position: absolute;
+  z-index: 1000;
+  right: 8%;
+  top: 36%;
+  font-size: 30px;
+  color: #058744;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
